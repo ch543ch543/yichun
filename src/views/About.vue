@@ -1,49 +1,45 @@
 <template>
-  <div class="about">
-    <a name='about'>
-        <div class="title">
-          <h1>ABOUT ME</h1>
-        </div>
-        <div data-aos="fade-up" data-aos-duration="2000">
-          <div class="content" >
-            <img class="yichun" src="../assets/yichun3.jpg">
-            <div>
-              <p style="font-size: medium; text-align: left;">你好，我叫蔡宜君，政大統計碩士畢業後第一份工作
-                期間有稍微使用到網頁html及css，發現這是所有工作內容中最令我感興趣的，於是利用下班後的時間自己在網路上接觸網頁工程相關資訊，並毅然決然地決定全力往這個方向前進。<br>
-                我相信不論是什麼工作剛開始一定都會有非常多需要學習的地方，以一個前端工程領域超級新鮮人的我來說更是，但我對於一切的挑戰與學習充滿期待。<br>
-                若對我有興趣的話歡迎參考我的作品集，並希望能有機會更近一步的會談與認識。<br><br>
-                I'm excited to start my new journey with new challenges and gains as a web developer.
-                If you feel interested, welcome to give my portfolio a look, and looking forward to talk to you soon!
-              </p>
-            <Contact></Contact>
+  <div class="about-container main-dark-background">
+    <div class="about page-growDown main-light-background">
+      <a name='about'>
+          <h1 class="title title-font main-dark-color dark-ele-growUp2">About</h1>
+          <div data-aos="fade-up" data-aos-duration="1500">
+            <div class="content" >
+              <!-- <img class="yichun" src="../assets/yichun3.jpg"> -->
+                <p>I’ve been working as a front-end web developer for one and half years and now seek a new position in the UK with my tier 5 visa. 
+                  During my first job as a digital marketing associate, I built the interest of creating visually appealing websites/ software interfaces and consequently I taught myself JavaScript, HTML, CSS, Vue and React with open resources online.
+In my past experience, I sharpened my technical skills mostly on React Hook, React class, jQuery and Less. 
+                  <br>If you feel interested, welcome to give my portfolio a look, and looking forward to talk to you soon!
+                </p>
+                <router-link to="/yichun-cv"><a class="main-dark-background main-light-color title-font" target="_blank" href="#">My CV</a></router-link>
+            </div>
           </div>
-          </div>
-          <hr>
-        </div>
-    </a>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
-import Contact from "../components/Contact.vue";
-
 export default {
   name: "About",
   components: {
-    Contact
   }
 };
 </script>
 
-<style>
+<style scoped lang="scss">
 .about {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color:rgb(40, 48, 48);
-  color: white;
+  .title {
+    font-size: 10vw;
+    text-align: left;
+    margin: 0 100px;
+  }
 }
 .container {
   width: 100%;
@@ -54,18 +50,27 @@ export default {
 }
 .content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 70px;
   padding-left: 30px;
   padding-right: 30px;
-}
-.content p {
-        width: 600px
-      }
-.title{
-  margin-bottom: 30px;
-  margin-top: 70px;
+  p {
+    width: 60%;
+    text-align: left;
+  }
+  a {
+    display: block;
+    border-radius: 30px;
+    width: 150px;
+    padding: 10px 20px;
+    transition: 1s;
+    &:hover {
+      width: 200px;
+    }
+
+  }
 }
 .yichun {
   margin-right: 50px;
@@ -84,53 +89,20 @@ img {
 h1 {
   font-size: 200%;
 }
-
-
-
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   .about {
-  width: 100%;
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color:rgb(40, 48, 48);
-  }
-  h1 {
-  font-size: 100%;
-  margin-top: 10px;
-  }
-  img {
-  width: 200px;
-  }
-  .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0 20%;
+    .title {
+      width: fit-content;
+      margin: 0 0 20px 0;
+    }
   }
   .content {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  } 
-  .content p {
-        max-width: 300px
-      }
-  .yichun {
-    margin-bottom: 10px;
+    padding: 0;
+    p {
+      width: 100%;
+    }
   }
-  .title{
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-  p {
-    width: 60%
-  }
-
 }
 
 </style>

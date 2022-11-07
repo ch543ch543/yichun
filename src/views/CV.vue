@@ -37,22 +37,22 @@
                             <span class="contact-font">ch543ch543@gmail.com</span>
                         </div>
                     </div>
-                    <div class='contact'>
+                    <!-- <div class='contact'>
                         <div class="contact-icon">
                             <i class="fab fa-linkedin-in"></i>
                         </div>
                         <div class="contact-item">
                             <a class="contact-font" href="https://www.linkedin.com/in/yichun-tsai-859278177" target="_blank" style="cursor: pointer;">linkedin.com/in/yichun-tsai-859278177</a>
                         </div>    
-                    </div>
-                    <div class='contact'>
+                    </div> -->
+                    <!-- <div class='contact'>
                         <div class="contact-icon">
                             <i class="fab fa-github"></i> 
                         </div>
                         <div class="contact-item">
                             <a class="contact-font" href="https://github.com/ch543ch543" target="_blank" style="cursor: pointer;">github.com/ch543ch543</a>
                         </div>    
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- <div class="skills">
@@ -75,7 +75,7 @@
                     </ul>
                 </div> -->
 
-                <div class="certifications">
+                <!-- <div class="certifications">
                     <p style="text-align: left; font-weight: bold; font-size: large; color: white; "> CERTIFICATIONS </p>
                     <hr>
                     <ul style="text-align: left; color:white;">
@@ -88,8 +88,14 @@
                         </li>
                         
                     </ul>
+                </div> -->
+                <div class="certifications">
+                    <p style="text-align: left; font-weight: bold; font-size: large; color: white; ">Work Permit</p>
+                    <p style="text-align: left; color:white;">
+                        Tier 5 (expire in Aug. 2024)
+                    </p>
                 </div>
-
+                <hr>
             </div>   
         </div>
 
@@ -110,7 +116,7 @@
                     <table class="table table-borderless">
                         <tbody>
                             <tr>
-                                <th scope="row" class="experience-period">November. 2020 - Jul. 2022</th>
+                                <th scope="row" class="experience-period">Nov. 2020 - Jul. 2022</th>
                                 <td class="experience-item">
                                     <div class="experience-title">
                                         <div>QSAN Inc.</div>
@@ -121,13 +127,12 @@
                                     </div>
                                     <p style="display:inline">Front-End Developer</p><br>
                                     <ul class="experience-list">
-                                        <li>Corporated with back-end developers, creating and maintaining frontend code for NAS monitoring system with React Hook and requested RESTful API with axios.</li>
-                                        <li>Created and maintained web client GUI for NAS with React Class component and requested RESTful API with axios.</li>
-                                        <li>Implemented Redux framework in different projects for one-way data flow.</li>
-                                        <li>Suggested and implemented the enhancement of UI consistency by extracting duplicating code and create reusable components.</li>
-                                        <li>Corporated with product managers on the design of UX / UI for web client GUI, and implemented with Ant UI library UI kits.</li>
                                         <li>Worked with UI/ UX designer and marketing team to achieve design goals, maintaining a 8+ languages website full-stack with jQuery, PHP and MySQL.</li>
-                                        <li>Lead of a new website project plan.</li>
+                                        <li>Cooperated with product managers on the design of UX / UI for web client GUI, and implemented with Ant UI library UI kits.</li>
+                                        <li>Cooperated with back-end developers, creating and maintaining frontend code for NAS monitoring system with React Hook and requested RESTful APIs with axios.</li>
+                                        <li>Created and maintained web client GUI for NAS with React Class component and requested RESTful APIs with axios.</li>
+                                        <li>Implemented Redux framework in different projects for one-way data flow.</li>
+                                        <li>Suggested and implemented the enhancement of UI consistency by extracting duplicating code and creating reusable components.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -141,7 +146,7 @@
                                             <span class="experience-period">Taipei, Taiwan</span>
                                         </div>
                                     </div>
-                                    <p style="display:inline">Digital Marketing Coordinator</p><br>
+                                    <p style="display:inline">Digital Marketing Associate</p><br>
                                     <ul class="experience-list">
                                         <li>AD traffic and conversion analysis</li>
                                         <li>Advertising copy</li>
@@ -190,24 +195,21 @@
                     <table class="table table-borderless" >
                         <tbody>
                             <tr>
-                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">Html <br> ★★★★ </th>
-                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">CSS/ less <br> ★★★★ </th>
-                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">JacaScript <br> ★★★★ </th>
-                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> React <br> ★★★ </th>
-                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Redux <br> ★★★ </th>
-                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> jQuery <br> ★★★ </th>
+                              <!-- <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">Html <br> ★★★★ </th> -->
+                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">Html</th>
+                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">CSS/ LESS</th>
+                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;">JavaScript </th>
+                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> React</th>
+                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Redux</th>
+                              <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> jQuery</th>
                             </tr>
                             <tr>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Ant UI <br> ★★★★ </th>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Bootstrap <br> ★★★★ </th>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Vue.js <br> ★★★★ </th>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Git/ Github <br> ★★★ </th>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> node.js <br> ★★★ </th>
-                            </tr>
-                            <tr>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> SQL <br> ★★★★ </th>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Git/ Github <br> ★★★ </th>
-                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> go <br> ★★★ </th>
+                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> SQL</th>
+                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Ant UI</th>
+                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Bootstrap</th>
+                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Vue.js</th>
+                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> Linux</th>
+                                <th scope="row" style="text-align: left; color:rgb(78, 83, 83); font-size:small;"> SVN</th>
                             </tr>
                           </tbody>
                     </table>
@@ -234,6 +236,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
     .container{
         max-width: 1200px;
@@ -241,14 +244,14 @@
         margin: 100px;
         padding-left: 0px;
         padding-right: 0px;
-        border-color: rgb(230, 223, 223);
+        border-color: #f6eee8;
         border-style: solid;
-        background-color:rgb(170, 179, 165);
+        background-color:#f6eee8;
     }
     .profile {
         width: 356px;
         min-height: 100vh; 
-        background-color: rgb(63, 70, 70);
+        background-color: #dfd1c7;
         margin-right: 20px;
     }
     .profilecontent {
