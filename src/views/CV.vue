@@ -20,7 +20,7 @@
               </div>
               <div class="contact-item">
                 <span class="contact-font main-dark-color"
-                  >+44 7391 831574</span
+                  >+44 7391 831547</span
                 >
               </div>
             </div>
