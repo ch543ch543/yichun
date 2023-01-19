@@ -1,9 +1,9 @@
 <template>
   <div class="CV">
-    <div class="container main-light-background">
+    <div class="container profile">
       <div class="profile">
         <!-- <img class="yichun" src="../assets/yichun3.jpg" >     -->
-        <div class="profilecontent main-light-background">
+        <div class="profilecontent">
           <div class="title-font title-font-size">YICHUN TSAI</div>
           <div class="contactlist">
             <div class="contact">
@@ -56,8 +56,8 @@
           </div>
         </div>
       </div>
-      <div class="experience main-light-background">
-        <div class="experiencecontent main-light-background">
+      <div class="experience profile">
+        <div class="experiencecontent profile">
           <div class="Experience">
             <p
               style="
@@ -76,6 +76,7 @@
                   <th scope="row" class="experience-period">
                     Dec. 2020 - Jun. 2022
                   </th>
+                  <!-- <th scope="row" class="experience-period">2020 - 2022</th> -->
                   <td class="experience-item">
                     <div class="experience-title">
                       <div>QSAN Inc.</div>
@@ -126,6 +127,7 @@
                   <th scope="row" class="experience-period">
                     Apr. 2020 - Aug. 2020
                   </th>
+                  <!-- <th scope="row" class="experience-period">2020</th> -->
                   <td class="experience-item">
                     <div class="experience-title">
                       <div>E.SUN COMMERTIAL BANK</div>
@@ -383,7 +385,8 @@ export default {
 }
 .profile {
   width: 100%;
-  background-color: #dfd1c7;
+  // background-color: #dfd1c7;
+  background-color: white;
 }
 .profilecontent {
   padding: 50px;
