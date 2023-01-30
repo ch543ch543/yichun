@@ -1,0 +1,157 @@
+$primary-color: #c7bad1;
+$primary-dark-color: #5c5561;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-align: center;
+  position: relative;
+  color: $primary-dark-color;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: $primary-dark-color;
+  color: $primary-color;
+  border-radius: 5px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+span {
+  cursor: pointer;
+  padding: 0 5px;
+  &.focused-page {
+    color: $primary-color;
+    border-bottom: 1px solid $primary-color;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  input {
+    padding: 0.5rem;
+    &:nth-child(1) {
+      width: 30rem;
+      border: solid;
+      border-radius: 5px;
+      border-color: $primary-color;
+      background-color: #ffffff;
+      &:focus {
+        outline-color: $primary-dark-color;
+      }
+    }
+    &:nth-child(2) {
+      &:disabled {
+        cursor: not-allowed;
+        background-color: lightgray;
+        color: rgb(164, 162, 162);
+        border-color: lightgray;
+      }
+      cursor: pointer;
+      border: solid;
+      border-radius: 5px;
+      color: #ffffff;
+      background-color: $primary-dark-color;
+      border-color: $primary-color;
+    }
+  }
+}
+.App {
+  padding: 3rem;
+}
+
+.add-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-mark-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  gap: 2rem;
+  .book-mark-background {
+    display: block;
+    padding: 0 3rem;
+    width: 30rem;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-left: 3rem solid transparent;
+    border-right: none;
+    border-top: 5rem solid $primary-color;
+    border-bottom: 5rem solid $primary-color;
+    border-top-right-radius: 1rem 1rem;
+    border-bottom-right-radius: 1rem 1rem;
+    .book-mark {
+      display: flex;
+      height: 2rem;
+      position: absolute;
+      right: 1rem;
+      height: fit-content;
+      top: -5rem;
+    }
+    .link-cotainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      input:nth-child(1) {
+        width: 20rem;
+        &:focus {
+          border: none;
+        }
+      }
+    }
+    .btn-container {
+      height: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 0 0 0 1rem;
+      a {
+        display: block;
+      }
+      button,
+      a {
+        display: block;
+        scale: 1;
+        background-color: transparent;
+        color: $primary-dark-color;
+        transition: scale 1s;
+        margin: 0;
+        &:hover {
+          scale: 1.5;
+        }
+      }
+    }
+  }
+}
+.pagination {
+  button {
+    background-color: transparent;
+    color: $primary-dark-color;
+  }
+  .prev {
+    transform: rotate(180deg);
+  }
+  .show {
+    visibility: visible;
+  }
+  .hide {
+    visibility: hidden;
+  }
+}
